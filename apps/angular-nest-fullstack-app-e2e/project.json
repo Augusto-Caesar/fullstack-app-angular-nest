@@ -1,0 +1,10 @@
+{
+  "name": "angular-nest-fullstack-app-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/angular-nest-fullstack-app-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["angular-nest-fullstack-app"],
+  "// targets": "to see all targets run: nx show project angular-nest-fullstack-app-e2e --web",
+  "targets": {}
+}
