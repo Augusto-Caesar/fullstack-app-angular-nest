@@ -57,7 +57,11 @@
           "buildTarget": "angular-nest-fullstack-app:build:development"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "development",
+      "dependsOn": ["api:serve"],
+      "options": {
+        "proxyConfig": "apps/angular-nest-fullstack-app/proxy.conf.json"
+      }
     },
     "lint": {
       "executor": "@nx/eslint:lint"
